@@ -1,0 +1,2 @@
+dataset,model,random_state,n_train,n_test,n_features,accuracy,macro_f1,feature_extraction_train_time_seconds,classifier_train_time_seconds,total_training_time_seconds,test_feature_extraction_time_seconds,prediction_time_seconds,prediction_time_per_case_seconds
+Coffee,MultiRocket,42,28,28,49728,1.0,1.0,43.94448339997325,0.08474989997921512,44.029233299952466,0.34626610000850633,0.0033395999926142395,0.00011927142830765141
