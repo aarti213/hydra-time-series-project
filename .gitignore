@@ -28,3 +28,7 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.log
+
+hydra_env/
+
+data/
