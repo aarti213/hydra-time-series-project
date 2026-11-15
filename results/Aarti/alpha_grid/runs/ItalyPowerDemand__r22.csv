@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+ItalyPowerDemand,22,sklearn_default,67,1029,0.9543245869776482,0.9543036990353917,10.0,True,False,0.007759500000247499
+ItalyPowerDemand,22,readme,67,1029,0.9533527696793003,0.9533333333333334,215.44346900318823,False,False,0.007590400000481168
+ItalyPowerDemand,22,extended,67,1029,0.9533527696793003,0.9533333333333334,215.44346900318823,False,False,0.00992969999788329

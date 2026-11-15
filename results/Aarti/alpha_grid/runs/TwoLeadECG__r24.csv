@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+TwoLeadECG,24,sklearn_default,23,1139,0.9982440737489026,0.9982440723953998,0.1,False,True,0.004770499999722233
+TwoLeadECG,24,readme,23,1139,0.9982440737489026,0.9982440723953998,0.001,False,True,0.004537599998002406
+TwoLeadECG,24,extended,23,1139,0.9982440737489026,0.9982440723953998,0.001,False,True,0.004856900002778275

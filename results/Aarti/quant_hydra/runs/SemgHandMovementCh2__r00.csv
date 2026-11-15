@@ -1,0 +1,14 @@
+dataset,group,resample,config,hydra_part,fusion,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,train_seconds,test_seconds
+SemgHandMovementCh2,QUANT-favoured,0,QUANT,-,baseline,450,450,1500,13315,0.8266666666666667,0.8264321916047616,,24.39984259999997,4.435824399999973
+SemgHandMovementCh2,QUANT-favoured,0,H-dict,H-dict,baseline,450,450,1500,4096,0.4,0.39890381465947344,1000.0,,
+SemgHandMovementCh2,QUANT-favoured,0,H-rocket,H-rocket,baseline,450,450,1500,4096,0.5511111111111111,0.5529886093570427,46.41588833612773,,
+SemgHandMovementCh2,QUANT-favoured,0,Hydra,Hydra,baseline,450,450,1500,8192,0.4955555555555556,0.4970658113855948,1000.0,53.823746200000045,45.48855200000003
+SemgHandMovementCh2,QUANT-favoured,0,Q‖H-dict [R],H-dict,early (ridge),450,450,1500,17411,0.5888888888888889,0.5942378483924307,1000.0,,
+SemgHandMovementCh2,QUANT-favoured,0,Q‖H-rocket [R],H-rocket,early (ridge),450,450,1500,17411,0.5488888888888889,0.5564998805301618,1000.0,,
+SemgHandMovementCh2,QUANT-favoured,0,Q‖Hydra [R],Hydra,early (ridge),450,450,1500,21507,0.58,0.5841130611675845,1000.0,57.163937799999985,49.91218039999998
+SemgHandMovementCh2,QUANT-favoured,0,Q‖H-dict [ET],H-dict,early (trees),450,450,1500,17411,0.8422222222222222,0.8412356013218357,,,
+SemgHandMovementCh2,QUANT-favoured,0,Q‖H-rocket [ET],H-rocket,early (trees),450,450,1500,17411,0.8288888888888889,0.8292824903713534,,,
+SemgHandMovementCh2,QUANT-favoured,0,Q‖Hydra [ET],Hydra,early (trees),450,450,1500,21507,0.8466666666666667,0.8454783463675685,,92.69576439999997,49.9094441
+SemgHandMovementCh2,QUANT-favoured,0,Q+H-dict,H-dict,late,450,450,1500,17411,0.8177777777777778,0.8177863425331401,,,
+SemgHandMovementCh2,QUANT-favoured,0,Q+H-rocket,H-rocket,late,450,450,1500,17411,0.82,0.8198547624120334,,,
+SemgHandMovementCh2,QUANT-favoured,0,Q+Hydra,Hydra,late,450,450,1500,21507,0.8066666666666666,0.8066324110200559,,78.22358880000002,49.9243764

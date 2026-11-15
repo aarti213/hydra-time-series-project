@@ -1,0 +1,13 @@
+{
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "numpy": "2.3.5",
+  "pandas": "3.0.6",
+  "scikit_learn": "1.9.1",
+  "pytorch": "2.15.0+cpu",
+  "aeon": "1.6.0",
+  "threads_per_task": 1,
+  "parallel_workers": 6,
+  "cpu_count": 18
+}

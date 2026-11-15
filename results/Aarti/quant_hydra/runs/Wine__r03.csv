@@ -1,0 +1,14 @@
+dataset,group,resample,config,hydra_part,fusion,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,train_seconds,test_seconds
+Wine,Hydra-favoured,3,QUANT,-,baseline,57,54,234,2182,0.9814814814814815,0.9814751286449399,,0.7573768999999686,0.17686490000002664
+Wine,Hydra-favoured,3,H-dict,H-dict,baseline,57,54,234,2560,0.9814814814814815,0.9814751286449399,0.001,,
+Wine,Hydra-favoured,3,H-rocket,H-rocket,baseline,57,54,234,2560,0.9814814814814815,0.9814751286449399,0.001,,
+Wine,Hydra-favoured,3,Hydra,Hydra,baseline,57,54,234,5120,0.9814814814814815,0.9814751286449399,0.001,0.4847877000000267,0.6488741000000005
+Wine,Hydra-favoured,3,Q‖H-dict [R],H-dict,early (ridge),57,54,234,4742,1.0,1.0,0.001,,
+Wine,Hydra-favoured,3,Q‖H-rocket [R],H-rocket,early (ridge),57,54,234,4742,1.0,1.0,0.001,,
+Wine,Hydra-favoured,3,Q‖Hydra [R],Hydra,early (ridge),57,54,234,7302,1.0,1.0,0.001,0.8534659999999974,0.8100531999999987
+Wine,Hydra-favoured,3,Q‖H-dict [ET],H-dict,early (trees),57,54,234,4742,0.9814814814814815,0.9814751286449399,,,
+Wine,Hydra-favoured,3,Q‖H-rocket [ET],H-rocket,early (trees),57,54,234,4742,1.0,1.0,,,
+Wine,Hydra-favoured,3,Q‖Hydra [ET],Hydra,early (trees),57,54,234,7302,0.9629629629629629,0.9629120879120879,,2.0713711000000217,0.8272914000000355
+Wine,Hydra-favoured,3,Q+H-dict,H-dict,late,57,54,234,4742,0.9814814814814815,0.9814751286449399,,,
+Wine,Hydra-favoured,3,Q+H-rocket,H-rocket,late,57,54,234,4742,1.0,1.0,,,
+Wine,Hydra-favoured,3,Q+Hydra,Hydra,late,57,54,234,7302,0.9814814814814815,0.9814751286449399,,1.2421645999999953,0.8257390000000271

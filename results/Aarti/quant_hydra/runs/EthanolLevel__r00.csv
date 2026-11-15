@@ -1,0 +1,14 @@
+dataset,group,resample,config,hydra_part,fusion,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,train_seconds,test_seconds
+EthanolLevel,QUANT-favoured,0,QUANT,-,baseline,504,500,1751,15549,0.688,0.6747714192889631,,30.222698599999887,3.2224112000000105
+EthanolLevel,QUANT-favoured,0,H-dict,H-dict,baseline,504,500,1751,4096,0.55,0.5338086698735461,1000.0,,
+EthanolLevel,QUANT-favoured,0,H-rocket,H-rocket,baseline,504,500,1751,4096,0.566,0.5342060255066203,1000.0,,
+EthanolLevel,QUANT-favoured,0,Hydra,Hydra,baseline,504,500,1751,8192,0.588,0.5718323326507229,1000.0,51.28558820000006,47.561990700000024
+EthanolLevel,QUANT-favoured,0,Q‖H-dict [R],H-dict,early (ridge),504,500,1751,19645,0.616,0.6006344377601556,1000.0,,
+EthanolLevel,QUANT-favoured,0,Q‖H-rocket [R],H-rocket,early (ridge),504,500,1751,19645,0.624,0.6068119803728029,1000.0,,
+EthanolLevel,QUANT-favoured,0,Q‖Hydra [R],Hydra,early (ridge),504,500,1751,23741,0.602,0.586287860355581,1000.0,55.153017499999976,50.785997699999996
+EthanolLevel,QUANT-favoured,0,Q‖H-dict [ET],H-dict,early (trees),504,500,1751,19645,0.704,0.690080988707908,,,
+EthanolLevel,QUANT-favoured,0,Q‖H-rocket [ET],H-rocket,early (trees),504,500,1751,19645,0.706,0.6955389699669163,,,
+EthanolLevel,QUANT-favoured,0,Q‖Hydra [ET],Hydra,early (trees),504,500,1751,23741,0.714,0.7007024601752132,,102.78358209999999,50.81401339999991
+EthanolLevel,QUANT-favoured,0,Q+H-dict,H-dict,late,504,500,1751,19645,0.646,0.6373184661429971,,,
+EthanolLevel,QUANT-favoured,0,Q+H-rocket,H-rocket,late,504,500,1751,19645,0.688,0.6768716139268716,,,
+EthanolLevel,QUANT-favoured,0,Q+Hydra,Hydra,late,504,500,1751,23741,0.678,0.6697188742060227,,81.50828679999995,50.784401900000034
