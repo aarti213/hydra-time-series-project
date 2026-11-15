@@ -6,3 +6,8 @@ aeon
 matplotlib
 tqdm
 ipykernel
+# used directly by the aarti_* notebooks
+scipy
+joblib
+threadpoolctl
+cloudpickle
