@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+InsectWingbeatSound,18,sklearn_default,220,1980,0.6368686868686869,0.6325248651892177,10.0,True,False,0.044628200001170626
+InsectWingbeatSound,18,readme,220,1980,0.6575757575757576,0.6494936568043406,1000.0,True,False,0.08541250000052969
+InsectWingbeatSound,18,extended,220,1980,0.6535353535353535,0.6419769900709485,4641.588833612773,False,False,0.0928051000009873

@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+Earthquakes,7,sklearn_default,322,139,0.7194244604316546,0.4829756795422031,10.0,True,False,0.07816339999772026
+Earthquakes,7,readme,322,139,0.7338129496402878,0.42323651452282157,1000.0,True,False,0.10122939999928349
+Earthquakes,7,extended,322,139,0.7482014388489209,0.4279835390946502,100000.0,False,False,0.11610550000114017

@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+GunPoint,11,sklearn_default,50,150,0.98,0.9799991110716032,0.1,False,True,0.0062369999977818225
+GunPoint,11,readme,50,150,0.98,0.9799991110716032,0.001,False,True,0.007825100001355167
+GunPoint,11,extended,50,150,0.98,0.9799991110716032,0.001,False,True,0.007085699999151984

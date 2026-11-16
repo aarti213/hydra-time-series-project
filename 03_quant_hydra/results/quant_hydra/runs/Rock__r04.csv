@@ -1,0 +1,14 @@
+dataset,group,resample,config,hydra_part,fusion,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,train_seconds,test_seconds
+Rock,Hydra-favoured,4,QUANT,-,baseline,20,50,2844,25203,0.7,0.7255608974358974,,3.521709999999999,0.8808276999999833
+Rock,Hydra-favoured,4,H-dict,H-dict,baseline,20,50,2844,4608,0.86,0.841842105263158,1000.0,,
+Rock,Hydra-favoured,4,H-rocket,H-rocket,baseline,20,50,2844,4608,0.92,0.9082161955691367,215.44346900318823,,
+Rock,Hydra-favoured,4,Hydra,Hydra,baseline,20,50,2844,9216,0.92,0.8958333333333334,1000.0,4.123506800000001,12.069534799999985
+Rock,Hydra-favoured,4,Q‖H-dict [R],H-dict,early (ridge),20,50,2844,29811,0.86,0.8585960150515082,1000.0,,
+Rock,Hydra-favoured,4,Q‖H-rocket [R],H-rocket,early (ridge),20,50,2844,29811,0.88,0.8875968992248062,1000.0,,
+Rock,Hydra-favoured,4,Q‖Hydra [R],Hydra,early (ridge),20,50,2844,34419,0.86,0.8585960150515082,1000.0,4.533117599999983,12.89713359999999
+Rock,Hydra-favoured,4,Q‖H-dict [ET],H-dict,early (trees),20,50,2844,29811,0.8,0.8117216117216116,,,
+Rock,Hydra-favoured,4,Q‖H-rocket [ET],H-rocket,early (trees),20,50,2844,29811,0.68,0.6979467900520533,,,
+Rock,Hydra-favoured,4,Q‖Hydra [ET],Hydra,early (trees),20,50,2844,34419,0.76,0.7870192307692307,,7.548994699999994,12.915608199999994
+Rock,Hydra-favoured,4,Q+H-dict,H-dict,late,20,50,2844,29811,0.86,0.8568525592055003,,,
+Rock,Hydra-favoured,4,Q+H-rocket,H-rocket,late,20,50,2844,29811,0.84,0.8366133866133867,,,
+Rock,Hydra-favoured,4,Q+Hydra,Hydra,late,20,50,2844,34419,0.86,0.8568525592055003,,7.6452168,12.950362499999969

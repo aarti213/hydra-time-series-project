@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+Coffee,5,sklearn_default,28,28,1.0,1.0,0.1,False,True,0.008207500002754387
+Coffee,5,readme,28,28,1.0,1.0,0.001,False,True,0.007111799997801427
+Coffee,5,extended,28,28,1.0,1.0,0.001,False,True,0.0057144999991578516

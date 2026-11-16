@@ -1,0 +1,14 @@
+dataset,group,resample,config,hydra_part,fusion,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,train_seconds,test_seconds
+ToeSegmentation1,Hydra-favoured,9,QUANT,-,baseline,40,228,277,2658,0.8552631578947368,0.8525370911157714,,0.8704127000000028,0.31351329999998256
+ToeSegmentation1,Hydra-favoured,9,H-dict,H-dict,baseline,40,228,277,3072,0.9078947368421053,0.9072506440927494,0.001,,
+ToeSegmentation1,Hydra-favoured,9,H-rocket,H-rocket,baseline,40,228,277,3072,0.9254385964912281,0.9249171880750828,215.44346900318823,,
+ToeSegmentation1,Hydra-favoured,9,Hydra,Hydra,baseline,40,228,277,6144,0.9166666666666666,0.9162007931134539,0.001,0.486421799999988,2.6010014999999953
+ToeSegmentation1,Hydra-favoured,9,Q‖H-dict [R],H-dict,early (ridge),40,228,277,5730,0.8859649122807017,0.88421875,0.001,,
+ToeSegmentation1,Hydra-favoured,9,Q‖H-rocket [R],H-rocket,early (ridge),40,228,277,5730,0.881578947368421,0.8798946444249341,46.41588833612773,,
+ToeSegmentation1,Hydra-favoured,9,Q‖Hydra [R],Hydra,early (ridge),40,228,277,8802,0.9035087719298246,0.9024276377217554,0.001,0.6520851999999877,2.88213429999999
+ToeSegmentation1,Hydra-favoured,9,Q‖H-dict [ET],H-dict,early (trees),40,228,277,5730,0.9166666666666666,0.9158099310076766,,,
+ToeSegmentation1,Hydra-favoured,9,Q‖H-rocket [ET],H-rocket,early (trees),40,228,277,5730,0.9210526315789473,0.9206619239096814,,,
+ToeSegmentation1,Hydra-favoured,9,Q‖Hydra [ET],Hydra,early (trees),40,228,277,8802,0.9122807017543859,0.9114563106796116,,1.4033385999999837,2.931257099999982
+ToeSegmentation1,Hydra-favoured,9,Q+H-dict,H-dict,late,40,228,277,5730,0.8903508771929824,0.8890165306956912,,,
+ToeSegmentation1,Hydra-favoured,9,Q+H-rocket,H-rocket,late,40,228,277,5730,0.9078947368421053,0.9071066876200453,,,
+ToeSegmentation1,Hydra-favoured,9,Q+Hydra,Hydra,late,40,228,277,8802,0.8991228070175439,0.8980857059566612,,1.3568344999999908,2.914514799999978

@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+Lightning7,2,sklearn_default,70,73,0.7808219178082192,0.7862351933780504,0.1,False,True,0.015725499997643055
+Lightning7,2,readme,70,73,0.7808219178082192,0.7862351933780504,0.001,False,True,0.0168664999982866
+Lightning7,2,extended,70,73,0.7808219178082192,0.7862351933780504,0.001,False,True,0.018938599998364225

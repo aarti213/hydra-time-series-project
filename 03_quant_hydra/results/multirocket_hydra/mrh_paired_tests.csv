@@ -1,0 +1,25 @@
+comparison,group,mean_diff_pp,win,tie,loss,p
+Hydra+MultiRocket vs MultiRocket,Hydra-favoured,2.067001079580819,6,0,0,0.03125
+Hydra+MultiRocket vs MultiRocket,QUANT-favoured,-0.006292984489701207,3,0,3,1.0
+Hydra+MultiRocket vs MultiRocket,Neutral,0.2801223175698235,5,0,1,0.21875
+Hydra+MultiRocket vs MultiRocket,All 18,0.7802768042203138,14,0,4,0.05385589599609375
+Hydra+MultiRocket vs Hydra,Hydra-favoured,-2.1109213996175735,0,0,6,0.03125
+Hydra+MultiRocket vs Hydra,QUANT-favoured,9.179103604349512,5,0,1,0.0625
+Hydra+MultiRocket vs Hydra,Neutral,-0.2639996680316503,2,1,3,0.9375
+Hydra+MultiRocket vs Hydra,All 18,2.268060845566762,7,1,10,0.8276225183871474
+Hydra+MiniRocket vs MiniRocket,Hydra-favoured,0.8812619353887291,5,0,1,0.3125
+Hydra+MiniRocket vs MiniRocket,QUANT-favoured,-0.10244356129601544,4,0,2,0.84375
+Hydra+MiniRocket vs MiniRocket,Neutral,0.5011366731450695,4,0,2,0.3125
+Hydra+MiniRocket vs MiniRocket,All 18,0.4266516824125944,13,0,5,0.16735076904296875
+Hydra+MiniRocket vs Hydra,Hydra-favoured,1.4322542585301783,3,0,3,0.84375
+Hydra+MiniRocket vs Hydra,QUANT-favoured,3.6406154440580702,6,0,0,0.03125
+Hydra+MiniRocket vs Hydra,Neutral,-0.6041894244483056,2,0,4,0.21875
+Hydra+MiniRocket vs Hydra,All 18,1.4895600927133146,11,0,7,0.15404510498046875
+MultiRocket vs MiniRocket,Hydra-favoured,-4.728914802339841,3,0,3,0.5625
+MultiRocket vs MiniRocket,QUANT-favoured,5.442337583485126,6,0,0,0.03125
+MultiRocket vs MiniRocket,Neutral,0.5612041119919012,4,0,2,0.4375
+MultiRocket vs MiniRocket,All 18,0.42487563104572856,13,0,5,0.16735076904296875
+Hydra+MultiRocket vs Hydra+MiniRocket,Hydra-favoured,-3.5431756581477516,1,0,5,0.0625
+Hydra+MultiRocket vs Hydra+MiniRocket,QUANT-favoured,5.53848816029144,4,0,2,0.15625
+Hydra+MultiRocket vs Hydra+MiniRocket,Neutral,0.3401897564166552,4,0,2,0.21875
+Hydra+MultiRocket vs Hydra+MiniRocket,All 18,0.7785007528534478,9,0,9,0.932281494140625
