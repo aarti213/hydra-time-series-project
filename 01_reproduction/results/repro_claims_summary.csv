@@ -1,0 +1,41 @@
+claim,part,comparison,n_datasets,mean_delta_pp,W/D/L,p,p_kind,extra
+C2,C(a),Hydra (authors CSV) - HC2,112.0,-1.7954695345641227,33/10/69,0.0001158668997616,Holm (within Hydra source),paper W/D/L 27/5/80
+C1,C(a),Hydra (authors CSV) - TDE,112.0,1.2558083345592743,69/6/37,0.0027697019540516,Holm (within Hydra source),paper W/D/L 73/2/37
+C1,C(a),Hydra (authors CSV) - MrSQM,112.0,1.072893452897453,72/7/33,0.0035249197044685,Holm (within Hydra source),paper W/D/L 69/1/42
+C2,C(a),Hydra (authors CSV) - InceptionTime,112.0,-0.0857217465076491,54/6/52,1.0,Holm (within Hydra source),
+C2,C(a),Hydra (authors CSV) - ROCKET,112.0,0.5194416304862238,63/6/43,0.3109065259152246,Holm (within Hydra source),paper W/D/L 56/3/53
+C1/C2 context,C(a),Hydra (authors CSV) - MiniROCKET,112.0,-0.095505046908062,61/8/43,0.8175034037918093,Holm (within Hydra source),
+C1/C2 context,C(a),Hydra (authors CSV) - MultiROCKET,112.0,-0.7982229597845439,44/10/58,0.0734791995609316,Holm (within Hydra source),
+C1/C2 context,C(a),Hydra (authors CSV) - DrCIF,112.0,0.982655058407414,68/7/37,0.02854630222423,Holm (within Hydra source),
+C2,C(a),Hydra (authors CSV) - TS-CHIEF,112.0,-0.4170320367363905,52/6/54,1.0,Holm (within Hydra source),
+C1/C2 context,C(a),Hydra (authors CSV) - MultiROCKET-Hydra,112.0,-1.0532426218551816,34/13/65,0.002429181415326,Holm (within Hydra source),
+C2,C(a),Hydra - HC2,112.0,-2.1277593148719314,25/14/73,2.2599631493776697e-07,Holm (within Hydra source),paper W/D/L 27/5/80
+C1,C(a),Hydra - TDE,112.0,0.9235185542514656,65/4/43,0.0501394011855166,Holm (within Hydra source),paper W/D/L 73/2/37
+C1,C(a),Hydra - MrSQM,112.0,0.7406036725896442,68/4/40,0.0822371425458093,Holm (within Hydra source),paper W/D/L 69/1/42
+C2,C(a),Hydra - InceptionTime,112.0,-0.4180115268154575,47/6/59,0.6860179333677365,Holm (within Hydra source),
+C2,C(a),Hydra - ROCKET,112.0,0.1871518501784152,54/9/49,1.0,Holm (within Hydra source),paper W/D/L 56/3/53
+C1/C2 context,C(a),Hydra - MiniROCKET,112.0,-0.4277948272158706,53/9/50,1.0,Holm (within Hydra source),
+C1/C2 context,C(a),Hydra - MultiROCKET,112.0,-1.1305127400923525,35/11/66,0.0020079987183522,Holm (within Hydra source),
+C1/C2 context,C(a),Hydra - DrCIF,112.0,0.6503652780996055,63/5/44,0.2678206933867977,Holm (within Hydra source),
+C2,C(a),Hydra - TS-CHIEF,112.0,-0.749321817044199,49/4/59,0.7278308754825168,Holm (within Hydra source),
+C1/C2 context,C(a),Hydra - MultiROCKET-Hydra,112.0,-1.38553240216299,31/7/74,1.7837411738584063e-05,Holm (within Hydra source),
+C3,B,Hydra - MiniRocket,112.0,-0.2101446579507345,49/21/42,0.9938857045780892,Holm (Part B pairs),
+C3,B,Hydra - MultiRocket,112.0,-0.8876875199976226,35/17/60,0.023290990885052,Holm (Part B pairs),
+C3,B,Hydra+MultiRocket - MultiRocket,112.0,0.2462954489091285,43/45/24,0.0251048563679672,Holm (Part B pairs),
+C3,B,Hydra+MultiRocket - Hydra,112.0,1.133982968906751,65/18/29,0.0006996987337715,Holm (Part B pairs),
+C3,B,Hydra+MiniRocket - MiniRocket,112.0,0.577011617148605,65/30/17,2.6080715817385486e-05,Holm (Part B pairs),
+C3,authors' file,Hydra+MultiRocket - Hydra (authors' 30-resample means),112.0,1.0417857142857136,62/13/37,,,
+C4,A,k = 8 best (k x g = 512),,,,,,"best k by rank 8, by mean acc 32, rank of k=8 4.04"
+C4,A,max+min > max: default - max_soft,40.0,0.3879819419211225,21/5/14,0.1919052034080042,unadjusted,
+C4,A,max+min > max: maxmin_soft - max_soft,40.0,0.3020139900597473,20/9/11,0.0253654972251866,unadjusted,
+C4,A,soft+hard > either alone: maxmin_soft_and_hard - maxmin_soft,40.0,0.0917555356960271,18/4/18,0.8741351105580045,unadjusted,
+C4,A,soft+hard > either alone: maxmin_soft_and_hard - maxmin_hard,40.0,0.8492888990984155,24/5/11,0.0214109374148034,unadjusted,
+C4,A,"soft+hard > either alone: default (soft max, hard min) - maxmin_soft",40.0,0.0859679518613752,21/6/13,0.402430220692459,unadjusted,
+C4,A,"soft+hard > either alone: default (soft max, hard min) - maxmin_hard",40.0,0.8435013152637637,23/6/11,0.0101051074756729,unadjusted,
+C4,A,diff always helps: default: diff on - off,40.0,0.0917714261362649,17/7/16,0.4035283891159575,unadjusted,
+C4,A,clipping matters mainly at k = 1: k = 1: clip on - off,40.0,13.87116980951059,34/2/4,7.89177811859495e-07,unadjusted,
+C5,D,our 30-resample mean - paper (outliers),18.0,0.2679731706579918,,,,paper inside our 95% CI: 17/18
+C5,D,our resample 0 - paper (outliers),18.0,-8.911521138510478,,,,
+C5,D,default-split penalty: resample 0 - our 30-resample mean (outliers),18.0,-9.17949430916847,,,,
+C5,C(b),Hydra ours (r0) - Hydra (r0),112.0,0.4216651670830838,49/31/32,0.0586032275289646,Holm (Part C(b) table),
+C5,C(b),Hydra ours (r0) - MultiROCKET-Hydra (r0),112.0,-1.0323096505137273,27/23/62,0.0053778211820775,Holm (Part C(b) table),

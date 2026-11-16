@@ -1,0 +1,10 @@
+paper_claim,our_best_k_by_rank,our_best_k_by_mean_acc,rank_of_k8,quantity,mean_delta_pp,W/D/L,p,n,n_variants_with_positive_mean_delta,k_with_largest_|clip_delta|,clip_delta_pp_by_k
+k = 8 best (k x g = 512),8.0,32.0,4.0375,,,,,,,,
+max+min > max,,,,default - max_soft,0.3879819419211225,21/5/14,0.1919052034080042,40.0,,,
+max+min > max,,,,maxmin_soft - max_soft,0.3020139900597473,20/9/11,0.025365497225186655,40.0,,,
+soft+hard > either alone,,,,maxmin_soft_and_hard - maxmin_soft,0.09175553569602715,18/4/18,0.8741351105580045,40.0,,,
+soft+hard > either alone,,,,maxmin_soft_and_hard - maxmin_hard,0.8492888990984155,24/5/11,0.021410937414803422,40.0,,,
+soft+hard > either alone,,,,"default (soft max, hard min) - maxmin_soft",0.08596795186137526,21/6/13,0.40243022069245904,40.0,,,
+soft+hard > either alone,,,,"default (soft max, hard min) - maxmin_hard",0.8435013152637637,23/6/11,0.010105107475672951,40.0,,,
+diff always helps,,,,default: diff on - off,0.09177142613626492,17/7/16,0.40352838911595756,40.0,7/7,,
+clipping matters mainly at k = 1,,,,k = 1: clip on - off,13.87116980951059,34/2/4,7.89177811859495e-07,40.0,,1.0,"{""1"": 13.871, ""2"": 0.51, ""4"": 0.046, ""8"": 0.06, ""16"": 0.009, ""32"": -0.015, ""64"": -0.011, ""128"": -0.008, ""256"": -0.007, ""512"": 0.0}"
