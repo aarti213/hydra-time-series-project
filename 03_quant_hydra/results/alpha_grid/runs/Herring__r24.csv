@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+Herring,24,sklearn_default,64,64,0.625,0.6,10.0,True,False,0.016842400000314228
+Herring,24,readme,64,64,0.640625,0.6133438402941949,1000.0,True,False,0.017595200002688216
+Herring,24,extended,64,64,0.65625,0.6267232237539766,4641.588833612773,False,False,0.015285099998436635

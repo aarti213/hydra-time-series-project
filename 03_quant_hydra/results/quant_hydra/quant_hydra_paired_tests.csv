@@ -1,0 +1,109 @@
+combination,fusion,vs,group,mean_diff_pp,win,tie,loss,p
+Q‖H-dict [R],early (ridge),vs Hydra part,Hydra-favoured,-8.399816918417406,2,0,4,0.3125
+Q‖H-dict [R],early (ridge),vs QUANT,Hydra-favoured,4.836603371671147,5,0,1,0.4375
+Q‖H-dict [R],early (ridge),vs better parent,Hydra-favoured,-8.399816918417406,2,0,4,0.3125
+Q‖H-dict [R],early (ridge),vs Hydra part,QUANT-favoured,5.67144118783463,5,0,1,0.0625
+Q‖H-dict [R],early (ridge),vs QUANT,QUANT-favoured,-11.719053375282883,0,0,6,0.03125
+Q‖H-dict [R],early (ridge),vs better parent,QUANT-favoured,-11.719053375282883,0,0,6,0.03125
+Q‖H-dict [R],early (ridge),vs Hydra part,Neutral,0.369726893167982,3,1,2,0.625
+Q‖H-dict [R],early (ridge),vs QUANT,Neutral,0.11136447694071554,4,0,2,1.0
+Q‖H-dict [R],early (ridge),vs better parent,Neutral,-0.5775559776047379,2,1,3,0.5
+Q‖H-dict [R],early (ridge),vs Hydra part,All 18,-0.7862162791382641,10,1,7,0.31650871137990877
+Q‖H-dict [R],early (ridge),vs QUANT,All 18,-2.25702850889034,9,0,9,0.49507904052734375
+Q‖H-dict [R],early (ridge),vs better parent,All 18,-6.898808757101675,4,1,13,0.006075613544498056
+Q‖H-rocket [R],early (ridge),vs Hydra part,Hydra-favoured,-12.786990477919508,1,0,5,0.21875
+Q‖H-rocket [R],early (ridge),vs QUANT,Hydra-favoured,-1.4838975160346817,4,0,2,1.0
+Q‖H-rocket [R],early (ridge),vs better parent,Hydra-favoured,-12.786990477919508,1,0,5,0.21875
+Q‖H-rocket [R],early (ridge),vs Hydra part,QUANT-favoured,1.5452735000276017,4,0,2,0.4375
+Q‖H-rocket [R],early (ridge),vs QUANT,QUANT-favoured,-11.592417066843291,0,0,6,0.03125
+Q‖H-rocket [R],early (ridge),vs better parent,QUANT-favoured,-11.592417066843291,0,0,6,0.03125
+Q‖H-rocket [R],early (ridge),vs Hydra part,Neutral,-0.6808358444387874,2,1,3,0.5
+Q‖H-rocket [R],early (ridge),vs QUANT,Neutral,-1.020100120593287,2,0,4,0.21875
+Q‖H-rocket [R],early (ridge),vs better parent,Neutral,-1.8875920037101699,1,0,5,0.0625
+Q‖H-rocket [R],early (ridge),vs Hydra part,All 18,-3.974184274110232,7,1,10,0.4079782223524976
+Q‖H-rocket [R],early (ridge),vs QUANT,All 18,-4.698804901157087,6,0,12,0.08142852783203125
+Q‖H-rocket [R],early (ridge),vs better parent,All 18,-8.755666516157657,2,0,16,0.00019073486328125
+Q‖Hydra [R],early (ridge),vs Hydra part,Hydra-favoured,-8.804736007686564,1,1,4,0.125
+Q‖Hydra [R],early (ridge),vs QUANT,Hydra-favoured,5.814954688379725,5,0,1,0.3125
+Q‖Hydra [R],early (ridge),vs better parent,Hydra-favoured,-8.804736007686564,1,1,4,0.125
+Q‖Hydra [R],early (ridge),vs Hydra part,QUANT-favoured,2.836855991610092,4,0,2,0.3125
+Q‖Hydra [R],early (ridge),vs QUANT,QUANT-favoured,-10.925332008610695,0,0,6,0.03125
+Q‖Hydra [R],early (ridge),vs better parent,QUANT-favoured,-10.925332008610695,0,0,6,0.03125
+Q‖Hydra [R],early (ridge),vs Hydra part,Neutral,-0.06809775646339962,3,0,3,1.0
+Q‖Hydra [R],early (ridge),vs QUANT,Neutral,0.5799052117458403,4,0,2,0.6875
+Q‖Hydra [R],early (ridge),vs better parent,Neutral,-0.62557385350784,2,0,4,0.3125
+Q‖Hydra [R],early (ridge),vs Hydra part,All 18,-2.0119925908466243,8,1,9,0.8617071676190446
+Q‖Hydra [R],early (ridge),vs QUANT,All 18,-1.510157369495043,9,0,9,0.6094589233398438
+Q‖Hydra [R],early (ridge),vs better parent,All 18,-6.785213956601699,3,1,14,0.0022996785844149607
+Q‖H-dict [ET],early (trees),vs Hydra part,Hydra-favoured,-5.247928963499142,1,0,5,0.0625
+Q‖H-dict [ET],early (trees),vs QUANT,Hydra-favoured,7.988491326589409,5,1,0,0.0625
+Q‖H-dict [ET],early (trees),vs better parent,Hydra-favoured,-5.247928963499142,1,0,5,0.0625
+Q‖H-dict [ET],early (trees),vs Hydra part,QUANT-favoured,17.865521333554124,6,0,0,0.03125
+Q‖H-dict [ET],early (trees),vs QUANT,QUANT-favoured,0.47502677043661135,5,0,1,0.4375
+Q‖H-dict [ET],early (trees),vs better parent,QUANT-favoured,0.47502677043661135,5,0,1,0.4375
+Q‖H-dict [ET],early (trees),vs Hydra part,Neutral,0.9738138885156271,5,0,1,0.15625
+Q‖H-dict [ET],early (trees),vs QUANT,Neutral,0.7154514722883606,4,0,2,0.5625
+Q‖H-dict [ET],early (trees),vs better parent,Neutral,0.026531017742907153,3,0,3,1.0
+Q‖H-dict [ET],early (trees),vs Hydra part,All 18,4.53046875285687,12,0,6,0.22875213623046875
+Q‖H-dict [ET],early (trees),vs QUANT,All 18,3.0596565231047936,14,1,3,0.011539554953844918
+Q‖H-dict [ET],early (trees),vs better parent,All 18,-1.5821237251065408,9,0,9,0.2645263671875
+Q‖H-rocket [ET],early (trees),vs Hydra part,Hydra-favoured,-6.0160539627246195,0,0,6,0.03125
+Q‖H-rocket [ET],early (trees),vs QUANT,Hydra-favoured,5.287038999160205,4,1,1,0.125
+Q‖H-rocket [ET],early (trees),vs better parent,Hydra-favoured,-6.0160539627246195,0,0,6,0.03125
+Q‖H-rocket [ET],early (trees),vs Hydra part,QUANT-favoured,14.184501297124248,6,0,0,0.03125
+Q‖H-rocket [ET],early (trees),vs QUANT,QUANT-favoured,1.0468107302533538,5,0,1,0.15625
+Q‖H-rocket [ET],early (trees),vs better parent,QUANT-favoured,1.0468107302533538,5,0,1,0.15625
+Q‖H-rocket [ET],early (trees),vs Hydra part,Neutral,0.7208112523444332,4,0,2,0.5625
+Q‖H-rocket [ET],early (trees),vs QUANT,Neutral,0.3815469761899337,3,1,2,0.9375
+Q‖H-rocket [ET],early (trees),vs better parent,Neutral,-0.48594490692694947,3,0,3,0.6875
+Q‖H-rocket [ET],early (trees),vs Hydra part,All 18,2.9630861955813534,10,0,8,0.4171142578125
+Q‖H-rocket [ET],early (trees),vs QUANT,All 18,2.2384655685344983,12,2,4,0.026328518973141594
+Q‖H-rocket [ET],early (trees),vs better parent,All 18,-1.818396046466072,8,0,10,0.16735076904296875
+Q‖Hydra [ET],early (trees),vs Hydra part,Hydra-favoured,-6.253751290354162,0,0,6,0.03125
+Q‖Hydra [ET],early (trees),vs QUANT,Hydra-favoured,8.365939405712131,5,0,1,0.0625
+Q‖Hydra [ET],early (trees),vs better parent,Hydra-favoured,-6.253751290354162,0,0,6,0.03125
+Q‖Hydra [ET],early (trees),vs Hydra part,QUANT-favoured,14.973233427167855,6,0,0,0.03125
+Q‖Hydra [ET],early (trees),vs QUANT,QUANT-favoured,1.2110454269470663,4,0,2,0.15625
+Q‖Hydra [ET],early (trees),vs better parent,QUANT-favoured,1.2110454269470663,4,0,2,0.15625
+Q‖Hydra [ET],early (trees),vs Hydra part,Neutral,0.2197265324663041,4,1,1,0.5
+Q‖Hydra [ET],early (trees),vs QUANT,Neutral,0.867729500675544,4,0,2,0.6875
+Q‖Hydra [ET],early (trees),vs better parent,Neutral,-0.33774956457813626,3,0,3,0.6875
+Q‖Hydra [ET],early (trees),vs Hydra part,All 18,2.9797362230933326,10,1,7,0.433095033362903
+Q‖Hydra [ET],early (trees),vs QUANT,All 18,3.481571444444913,13,0,5,0.0055999755859375
+Q‖Hydra [ET],early (trees),vs better parent,All 18,-1.7934851426617433,7,0,11,0.24620819091796875
+Q+H-dict,late,vs Hydra part,Hydra-favoured,-1.3853728519398387,1,0,5,0.15625
+Q+H-dict,late,vs QUANT,Hydra-favoured,11.851047438148711,6,0,0,0.03125
+Q+H-dict,late,vs better parent,Hydra-favoured,-1.3853728519398387,1,0,5,0.15625
+Q+H-dict,late,vs Hydra part,QUANT-favoured,16.334804327427275,6,0,0,0.03125
+Q+H-dict,late,vs QUANT,QUANT-favoured,-1.0556902356902376,1,1,4,0.3125
+Q+H-dict,late,vs better parent,QUANT-favoured,-1.0556902356902376,1,1,4,0.3125
+Q+H-dict,late,vs Hydra part,Neutral,1.5768373772655144,5,0,1,0.09375
+Q+H-dict,late,vs QUANT,Neutral,1.318474961038248,3,0,3,0.4375
+Q+H-dict,late,vs better parent,Neutral,0.6295545064927947,3,0,3,0.5625
+Q+H-dict,late,vs Hydra part,All 18,5.5087562842509845,12,0,6,0.02684783935546875
+Q+H-dict,late,vs QUANT,All 18,4.037944054498907,10,1,7,0.06653594970703125
+Q+H-dict,late,vs better parent,All 18,-0.6038361937124272,5,1,12,0.2645263671875
+Q+H-rocket,late,vs Hydra part,Hydra-favoured,-1.3115494029568964,2,0,4,0.15625
+Q+H-rocket,late,vs QUANT,Hydra-favoured,9.99154355892793,6,0,0,0.03125
+Q+H-rocket,late,vs better parent,Hydra-favoured,-1.3115494029568964,2,0,4,0.15625
+Q+H-rocket,late,vs Hydra part,QUANT-favoured,12.25476624165149,6,0,0,0.03125
+Q+H-rocket,late,vs QUANT,QUANT-favoured,-0.8829243252194067,2,0,4,0.15625
+Q+H-rocket,late,vs better parent,QUANT-favoured,-0.8829243252194067,2,0,4,0.15625
+Q+H-rocket,late,vs Hydra part,Neutral,1.4123297785914015,5,0,1,0.4375
+Q+H-rocket,late,vs QUANT,Neutral,1.0730655024369022,5,0,1,0.15625
+Q+H-rocket,late,vs better parent,Neutral,0.20557361932001897,4,0,2,0.6875
+Q+H-rocket,late,vs Hydra part,All 18,4.1185155390953305,13,0,5,0.04827880859375
+Q+H-rocket,late,vs QUANT,All 18,3.3938949120484754,13,0,5,0.04827880859375
+Q+H-rocket,late,vs better parent,All 18,-0.6629667029520947,8,0,10,0.19638824462890625
+Q+Hydra,late,vs Hydra part,Hydra-favoured,-2.411612232206332,0,0,6,0.03125
+Q+Hydra,late,vs QUANT,Hydra-favoured,12.208078463859957,6,0,0,0.03125
+Q+Hydra,late,vs better parent,Hydra-favoured,-2.411612232206332,0,0,6,0.03125
+Q+Hydra,late,vs Hydra part,QUANT-favoured,12.646725727217529,6,0,0,0.03125
+Q+Hydra,late,vs QUANT,QUANT-favoured,-1.1154622730032573,1,0,5,0.21875
+Q+Hydra,late,vs better parent,QUANT-favoured,-1.1154622730032573,1,0,5,0.21875
+Q+Hydra,late,vs Hydra part,Neutral,0.7288553483670913,5,0,1,0.4375
+Q+Hydra,late,vs QUANT,Neutral,1.376858316576331,4,0,2,0.21875
+Q+Hydra,late,vs better parent,Neutral,0.17137925132265086,3,0,3,0.84375
+Q+Hydra,late,vs Hydra part,All 18,3.6546562811260963,11,0,7,0.16735076904296875
+Q+Hydra,late,vs QUANT,All 18,4.156491502477677,11,0,7,0.0599365234375
+Q+Hydra,late,vs better parent,All 18,-1.1185650846289796,4,0,14,0.05385589599609375

@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+ECG200,24,sklearn_default,100,100,0.92,0.910873440285205,10.0,True,False,0.013395199999649776
+ECG200,24,readme,100,100,0.92,0.910873440285205,215.44346900318823,False,False,0.011507300001539988
+ECG200,24,extended,100,100,0.92,0.910873440285205,215.44346900318823,False,False,0.012895399999251822

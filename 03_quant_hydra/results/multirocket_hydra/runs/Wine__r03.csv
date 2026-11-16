@@ -1,0 +1,6 @@
+dataset,group,resample,config,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,alpha_at_upper,train_seconds,test_seconds
+Wine,Hydra-favoured,3,MiniRocket,57,54,234,9996,1.0,1.0,0.001,False,0.11739379999926314,0.04550359999848297
+Wine,Hydra-favoured,3,MultiRocket,57,54,234,49728,1.0,1.0,0.001,False,0.5894718999988982,0.42871050000030664
+Wine,Hydra-favoured,3,Hydra,57,54,234,5120,0.9814814814814815,0.9814751286449399,0.001,False,0.3853832000022521,0.4087875000004715
+Wine,Hydra-favoured,3,Hydra+MiniRocket,57,54,234,15116,1.0,1.0,0.001,False,0.49381630000061705,0.45362589999785996
+Wine,Hydra-favoured,3,Hydra+MultiRocket,57,54,234,54848,1.0,1.0,0.001,False,0.981815999995888,0.836569299997791

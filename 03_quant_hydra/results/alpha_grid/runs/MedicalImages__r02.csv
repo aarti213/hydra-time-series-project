@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+MedicalImages,2,sklearn_default,381,760,0.7684210526315789,0.6769429172753575,10.0,True,False,0.10024519999933545
+MedicalImages,2,readme,381,760,0.7486842105263158,0.6394272249443667,1000.0,True,False,0.15377830000215909
+MedicalImages,2,extended,381,760,0.7486842105263158,0.6394272249443667,1000.0,False,False,0.1987193999993906

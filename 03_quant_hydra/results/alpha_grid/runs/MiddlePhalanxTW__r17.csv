@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+MiddlePhalanxTW,17,sklearn_default,399,154,0.525974025974026,0.36775405032526476,10.0,True,False,0.11273389999769279
+MiddlePhalanxTW,17,readme,399,154,0.564935064935065,0.3880150567990859,1000.0,True,False,0.1710760999994818
+MiddlePhalanxTW,17,extended,399,154,0.5844155844155844,0.3913355888277519,4641.588833612773,False,False,0.18040059999839286

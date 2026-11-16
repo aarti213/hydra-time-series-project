@@ -1,0 +1,14 @@
+dataset,group,resample,config,hydra_part,fusion,n_train,n_test,series_length,n_features,accuracy,macro_f1,ridge_alpha,train_seconds,test_seconds
+InsectWingbeatSound,Neutral,3,QUANT,-,baseline,220,1980,256,2253,0.6378787878787879,0.6352341222040688,,2.5841623999999683,1.6324637999998686
+InsectWingbeatSound,Neutral,3,H-dict,H-dict,baseline,220,1980,256,2560,0.6449494949494949,0.6379175388870402,1000.0,,
+InsectWingbeatSound,Neutral,3,H-rocket,H-rocket,baseline,220,1980,256,2560,0.6393939393939394,0.6243895196012609,1000.0,,
+InsectWingbeatSound,Neutral,3,Hydra,Hydra,baseline,220,1980,256,5120,0.6626262626262627,0.6552258939910961,1000.0,1.9057636999998522,16.044722399999955
+InsectWingbeatSound,Neutral,3,Q‖H-dict [R],H-dict,early (ridge),220,1980,256,4813,0.6777777777777778,0.675386054051419,1000.0,,
+InsectWingbeatSound,Neutral,3,Q‖H-rocket [R],H-rocket,early (ridge),220,1980,256,4813,0.6661616161616162,0.6633355796368904,1000.0,,
+InsectWingbeatSound,Neutral,3,Q‖Hydra [R],Hydra,early (ridge),220,1980,256,7373,0.6747474747474748,0.6722678180084594,1000.0,2.200846099999808,17.591049399999974
+InsectWingbeatSound,Neutral,3,Q‖H-dict [ET],H-dict,early (trees),220,1980,256,4813,0.6626262626262627,0.6573832738519597,,,
+InsectWingbeatSound,Neutral,3,Q‖H-rocket [ET],H-rocket,early (trees),220,1980,256,4813,0.6601010101010101,0.6582107302933383,,,
+InsectWingbeatSound,Neutral,3,Q‖Hydra [ET],Hydra,early (trees),220,1980,256,7373,0.6681818181818182,0.6640997817608189,,8.175988899999766,17.657747099999824
+InsectWingbeatSound,Neutral,3,Q+H-dict,H-dict,late,220,1980,256,4813,0.6787878787878788,0.6755312657258098,,,
+InsectWingbeatSound,Neutral,3,Q+H-rocket,H-rocket,late,220,1980,256,4813,0.6676767676767676,0.6622846270997231,,,
+InsectWingbeatSound,Neutral,3,Q+Hydra,Hydra,late,220,1980,256,7373,0.6782828282828283,0.6746239486478202,,4.4899260999998205,17.677186199999824

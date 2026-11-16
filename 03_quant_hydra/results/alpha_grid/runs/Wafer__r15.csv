@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+Wafer,15,sklearn_default,1000,6164,1.0,1.0,10.0,True,False,0.7911298999970313
+Wafer,15,readme,1000,6164,1.0,1.0,10.0,False,False,1.0461696999991545
+Wafer,15,extended,1000,6164,1.0,1.0,10.0,False,False,0.9076848000004247

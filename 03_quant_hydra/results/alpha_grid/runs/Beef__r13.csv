@@ -1,0 +1,4 @@
+dataset,resample,grid,n_train,n_test,accuracy,macro_f1,ridge_alpha,alpha_at_upper,alpha_at_lower,classifier_fit_seconds
+Beef,13,sklearn_default,30,30,0.9,0.8978621378621379,0.1,False,True,0.008294899998873007
+Beef,13,readme,30,30,0.9,0.8978621378621379,0.001,False,True,0.010368700000981335
+Beef,13,extended,30,30,0.9,0.8978621378621379,0.001,False,True,0.011692599997331854
